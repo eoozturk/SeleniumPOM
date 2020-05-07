@@ -11,7 +11,7 @@ public class BaseTest {
 
     @Before
     public void startPage(){
-        System.setProperty("webdriver.gecko.driver","C:\\Users\\emreozanozturk\\IdeaProjects\\POMDeneme\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver","C:\\Users\\"Your User"\\IdeaProjects\\POMDeneme\\geckodriver.exe");
         String url ="https://www.n11.com/";
         wdriver.get(url);
     }
