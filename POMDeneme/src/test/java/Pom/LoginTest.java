@@ -9,8 +9,8 @@ public class LoginTest extends BaseTest{
 
         TestElemens login=new TestElemens(wdriver);
         login.clickBtn();
-        login.userName("deneme@gmail.com");
-        login.passWord("123456");
+        login.userName("Your Mail Adress");
+        login.passWord("Your Password");
         login.login();
     }
 }
